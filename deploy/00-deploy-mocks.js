@@ -25,5 +25,5 @@ module.exports = async (hre) => {
   }
 
   // to be able to deploy ONLY our mock by running: "yarn hardhat deploy --tags mocks"
-  module.exports.tags = ["all", "mocks"]
 }
+ module.exports.tags = ["all", "mocks"]
